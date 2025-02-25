@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
-import { SectionWrapper } from '../hoc';
+import { SectionWrapper } from '../hoc'
 
 const ServiceCard = ({ index, title, icon}) => {
   return (
@@ -47,10 +47,10 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         In this course, you'll learn the following:
-ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
-React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
-TailwindCSS - a popular utility-first CSS styling framework
-Framer Motion - the most popular library used to bring your React website to life with animations
+        ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
+        React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
+        TailwindCSS - a popular utility-first CSS styling framework
+        Framer Motion - the most popular library used to bring your React website to life with animations
       </motion.p> 
 
       <div className="mt-20 flex flex-wrap gap-10">
