@@ -113,7 +113,7 @@ const Contact = () => {
                 name="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="What do you want to say?"
+                placeholder="What do you want to say? Please remember to share your Gmail contact and phone number here so I can get back to you as soon as possible."
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary
                 text-white rounded-lg outline-none border-none font-medium"/>
             </label>
