@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "IT Support",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "PHP Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Web Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "React Native",
       icon: creator,
     },
   ];
@@ -116,57 +116,61 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "IT Specialist",
+      company_name: "Alfa Business Incorporation | TasksEveryday TeamsPH",
+      icon: tailwind,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Configured and optimized network infrastructure for seamless connectivity and performance.",
+        "Managed and monitored SEP firewall agents, focusing on high bandwidth usage to ensure security and efficiency.",
+        "Administered Active Directory (AD), including reorganizing groupings to enhance network security and management.",
+        "Configured and maintained various application tools, such as Amazon, Citrix Workspace, Kustomer Tools, VPN, Microsoft Teams, and GoDaddy.",
+        "Ensured smooth and uninterrupted operation of IT systems and services through proactive maintenance.",
+        "Managed and resolved support tickets using Zoho Desk, ensuring prompt and effective issue resolution.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "IT Support Intern",
+      company_name: "Innoland Development Corporation",
+      icon: tailwind,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "September 2022 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Assisted with the installation and setup of hardware and software systems.",
+        "Performed routine maintenance and updates on both software and hardware to ensure optimal performance.",
+        "Managed and organized IT-related documentation.",
+        "Conducted research on technical issues, such as computer bugs, and identified potential solutions.",
+        "Collaborated with senior programmers to develop web systems using PHP.",
+        "Studied and gained experience in web design technologies, including HTML, CSS, and JavaScript.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -198,67 +202,79 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Calendar Scheduling System",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to create schedules, tasks, events, and seminars through a calendar scheduling system from various providers, offering a convenient and efficient solution for organizing and managing time-sensitive activities.",
       tags: [
         {
-          name: "react",
+          name: "PHP",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "BootStrap",
           color: "pink-text-gradient",
+        },
+        {
+          name: "https://github.com/llamedo123/calendar",
+          color: "blue-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/llamedo123/calendar",
     },
     {
-      name: "Job IT",
+      name: "Flappy Bird",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web-based platform that allows users to play the Flappy Bird game, offering a fun, engaging, and challenging experience that tests reflexes and coordination, providing an entertaining and efficient way to pass the time.",
       tags: [
         {
-          name: "react",
+          name: "HTML, CSS",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "BootStrap",
           color: "pink-text-gradient",
+        },
+        {
+          name: "https://github.com/llamedo123/flappy_bird",
+          color: "blue-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/llamedo123/flappy_bird",
     },
     {
-      name: "Trip Guide",
+      name: "DMS Project Contact Management System",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Project Contact Management System, developed in PHP, is a simple, user-friendly application. It allows users to add, view, update, and delete contact details, including first name, last name, gender, address, and contact information, displayed in a list view.",
       tags: [
         {
-          name: "nextjs",
+          name: "PHP",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "BootStrap",
           color: "pink-text-gradient",
+        },
+        {
+          name: "https://github.com/llamedo123/system_contact",
+          color: "blue-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/llamedo123/system_contact",
     },
   ];
   

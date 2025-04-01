@@ -14,7 +14,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
@@ -25,3 +25,5 @@ const App = () => {
 }
 
 export default App
+
+// 2:49:40

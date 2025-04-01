@@ -44,13 +44,9 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-6.5xl leading-[30px] text-justify"
       >
-        In this course, you'll learn the following:
-        ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
-        React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
-        TailwindCSS - a popular utility-first CSS styling framework
-        Framer Motion - the most popular library used to bring your React website to life with animations
+        I am a passionate and skilled IT professional with a background in IT support and specialization as an IT Specialist. With hands-on experience in troubleshooting and maintaining IT systems, I have developed a strong foundation in technology management. My expertise also extends to web development, where I am proficient in PHP and various web technologies. As an IT Support Intern, I gained valuable experience in providing technical assistance and resolving complex issues, and as an IT Specialist, I honed my skills in system management, ensuring seamless IT operations. In addition to my technical expertise, I am committed to staying updated with the latest advancements in web development, continuously improving my skill set in PHP and other programming languages. I am passionate about delivering high-quality digital solutions and am excited to bring my knowledge and experience to new challenges.        
       </motion.p> 
 
       <div className="mt-20 flex flex-wrap gap-10">
